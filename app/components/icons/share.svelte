@@ -1,0 +1,54 @@
+<script>
+  export let scale = 0.9;
+  export let color = "white";
+</script>
+
+<stackLayout
+  width="100%"
+  height="100%"
+  verticalAlignment="center"
+  orientation="vertical"
+  scaleX={scale}
+  scaleY={scale}
+>
+  <absoluteLayout width="22" height="25" marginTop="10%">
+    <stackLayout
+      backgroundColor="white"
+      width="7"
+      height="7"
+      borderRadius="50%"
+      marginTop="7"
+    />
+    <stackLayout
+      backgroundColor="white"
+      width="7"
+      height="7"
+      borderRadius="50%"
+      marginLeft="10"
+      marginTop="14"
+    />
+    <stackLayout
+      backgroundColor="white"
+      width="7"
+      height="7"
+      borderRadius="50%"
+      marginLeft="10"
+    />
+    <stackLayout
+      backgroundColor="white"
+      width="10"
+      height="2"
+      rotate="35deg"
+      marginTop="12"
+      marginLeft="3"
+    />
+    <stackLayout
+      backgroundColor="white"
+      width="10"
+      height="2"
+      rotate="-35deg"
+      marginTop="6"
+      marginLeft="3"
+    />
+  </absoluteLayout>
+</stackLayout>
