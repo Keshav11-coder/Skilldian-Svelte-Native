@@ -1,3 +1,13 @@
+<!--
+  reminder how to use git
+
+  git init
+  git remote add origin <url>
+  git checkout -b new-branch-name origin/main //new branch
+  git add .
+  git commit -m "message"
+  git push origin branch-name
+-->
 <script>
   import { Application, StackLayout } from "@nativescript/core";
 
