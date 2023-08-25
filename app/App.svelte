@@ -6,13 +6,12 @@
   import Search from "./components/Search.svelte"
   import Nav from "./components/Nav.svelte"
   let page = 0;
-
 </script>
 
 <frame>
   <!--<Home0 />-->
   {#if page === 0}
-  <Home bind:page/>
+  <Home bind:page />
   {:else if page === 1}
   <Account bind:page/>
   {:else if page === 2}

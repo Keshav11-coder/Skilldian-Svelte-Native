@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@capacitor/android": "^5.3.0",
     "@nativescript-community/ui-persistent-bottomsheet": "^0.0.26",
     "@nativescript/android": "^8.5.0",
     "@nativescript/core": "^8.5.7",

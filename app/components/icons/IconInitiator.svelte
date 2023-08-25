@@ -20,6 +20,8 @@
   import Share from "./share.svelte";
   import Bookmark from "./bookmark.svelte";
   import More from "./more.svelte";
+  import Home from "./home.svelte";
+  import Add from "./add.svelte";
 </script>
 
 {#if iconIndex === 0}
@@ -41,5 +43,13 @@
 {:else if iconIndex === 4}
   <stackLayout width="100%" height="100%" verticalAlignment="center"
     ><Message color={iconColor} scale={iconSize} /></stackLayout
+  >
+{:else if iconIndex === 5}
+  <stackLayout width="100%" height="100%" verticalAlignment="center"
+    ><Home color={iconColor} scale={iconSize} /></stackLayout
+  >
+{:else if iconIndex === 6}
+  <stackLayout width="100%" height="100%" verticalAlignment="center" horizontalAlignment="center"
+    ><Add color={iconColor} scale={iconSize} /></stackLayout
   >
 {/if}
